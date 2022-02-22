@@ -1,0 +1,43 @@
+body {
+    color: white!important;
+}
+
+.game {
+    font-size: 25px;
+    height: 450px;
+}
+
+p {
+    border-bottom:  2px solid rgb(248, 73, 4);
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    background: gray;
+    height: 250px;
+    align-items: center;
+    box-shadow: inset 2px 2px 3px black, inset -2px -2px 3px black;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.option_one, .option_two {
+    background: #d43e03;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 150px;
+}
+
+
+.option_two {
+    background-color: green;
+    transition: 0.2s;
+}
+
+.option_two:hover {
+    opacity: 0;
+    cursor: context-menu;
+}
